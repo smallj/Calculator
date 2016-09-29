@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 operand1.setText("");
                 operand2.setText("");
-                textResult.setText("");
+                textResult.setText("0.00");
                 operand1.requestFocus();
             }
         });
