@@ -46,7 +46,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BS"
+            android:text="&lt;[X]"
             android:id="@+id/btnBackSpace"
             android:layout_above="@+id/btn9"
             android:layout_toRightOf="@+id/btn8"
