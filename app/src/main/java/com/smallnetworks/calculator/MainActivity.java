@@ -17,6 +17,22 @@ public class MainActivity extends AppCompatActivity {
     private Button btnDivison;
     private Button btnMultiplication;
     private Button btnClear;
+    private Button btn0;
+    private Button btn1;
+    private Button btn2;
+    private Button btn3;
+    private Button btn4;
+    private Button btn5;
+    private Button btn6;
+    private Button btn7;
+    private Button btn8;
+    private Button btn9;
+    private Button btnPoint;
+    private Button btnDouble0;
+    private Button btnMinusEqual;
+    private Button btnPlusEqual;
+    private TextView textTotal;
+
     private TextView textResult;
 
     @Override
@@ -31,6 +47,21 @@ public class MainActivity extends AppCompatActivity {
         btnMultiplication = (Button) findViewById(R.id.btnMultiplication);
         btnClear = (Button) findViewById(R.id.btnClear);
         textResult = (TextView) findViewById(R.id.textResult);
+
+        btn0 = (Button) findViewById(R.id.btn0);
+        btn1 = (Button) findViewById(R.id.btn1);
+        btn2 = (Button) findViewById(R.id.btn2);
+        btn3 = (Button) findViewById(R.id.btn3);
+        btn4 = (Button) findViewById(R.id.btn4);
+        btn5 = (Button) findViewById(R.id.btn5);
+        btn6 = (Button) findViewById(R.id.btn6);
+        btn7 = (Button) findViewById(R.id.btn7);
+        btn8 = (Button) findViewById(R.id.btn8);
+        btn9 = (Button) findViewById(R.id.btn9);
+        btnPoint = (Button) findViewById(R.id.btnPoint);
+        btnDouble0 = (Button) findViewById(R.id.btnDouble0);
+        btnMinusEqual = (Button) findViewById(R.id.btnMinusEqual);
+        btnPlusEqual = (Button) findViewById(R.id.btnPlusEqual);
 
         btnClear.setOnClickListener( new View.OnClickListener() {
             @Override
