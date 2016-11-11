@@ -23,7 +23,9 @@
             android:id="@+id/txtTotal"
             android:layout_above="@+id/btnClearAll"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="false"
+            android:textAlignment="center" />
 
         <Button
             android:layout_width="wrap_content"
